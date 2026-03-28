@@ -2,6 +2,8 @@
 
 This project is a landing page built as part of The Odin Project curriculum.
 
+**Live Demo:** https://ahmadziadev.github.io/odin-landing-page/
+
 ## Image Attributions
 
 1. Siamese cat with red collar by [Michael Tamburini on Pexels](https://www.pexels.com/photo/siamese-cat-with-red-collar-1311572/)
