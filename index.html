@@ -3,72 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 <body>
     <div class="header">
-        <div class="header-logo">Operation Epic Furry</div>
-        <div class="header-links">
-            <a href="#mission">Mission</a>
-            <a href="#characters">Characters</a>
-            <a href="#join">Join the Resistance</a>
+        <div class="header-container container">
+            <div class="header-logo">Operation Epic Furry</div>
+            <div class="header-links">
+                <a href="#mission">Mission</a>
+                <a href="#characters">Characters</a>
+                <a href="#join">Join the Resistance</a>
+            </div>
         </div>
     </div>
     <div class="hero">
-        <div class="hero-content">
-            <div class="hero-title">Save the Catnip</div>
-            <div class="hero-text">The global catnip supply has vanished. Brown Cat controls the "Strait of Hairballs." Will King Cat, Silly Cat, and Orange Cat stop him before treats run out forever?</div>
-            <button class="hero-button">Join the Mission</button>
+        <div class="hero-container container">
+            <div class="hero-content">
+                <div class="hero-title">Save the Catnip</div>
+                <div class="hero-text">The global catnip supply has vanished. Brown Cat controls the "Strait of Hairballs." Will King Cat, Silly Cat, and Orange Cat stop him before treats run out forever?</div>
+                <button class="hero-button">Join the Mission</button>
+            </div>
+            <div class="hero-image"><img src="img/placeholderimg.png" alt="Placeholder Image"></div>
         </div>
-        <div class="hero-image"><img src="img/placeholderimg.png" alt="Placeholder Image"></div>
     </div>
     <div class="features">
-        <h2>The Resistance</h2>
-        <div class="card">
-            <div class="placeholder">
-                <!-- img here -->
-                 <img src="img/kingcat.jpg" alt="Image for King Cat">
+        <div class="features-container container">
+            <h2>The Resistance</h2>
+            <div class="card">
+                <div class="placeholder">
+                    <!-- img here -->
+                     <img src="img/kingcat.jpg" alt="Image for King Cat">
+                </div>
+                <div class="card-text">
+                    <strong>King Cat</strong><br>Fluffy drama monarch. Requires a velvet nap throne, premium treats, and at least three compliments before doing literally anything.
+                </div>
             </div>
-            <div class="card-text">
-                <strong>King Cat</strong><br>A fancy royal who demands a 21-purr salute and a fresh box before every battle.
+            <div class="card">
+                <div class="placeholder">
+                    <!-- img here -->
+                     <img src="img/sillycat.jpeg" alt="Image for Silly Cat">
+                </div>
+                <div class="card-text">
+                    <strong>Silly Cat</strong><br>The "Blep" Specialist who identifies enemy targets by staring at them until they feel awkward.
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="placeholder">
-                <!-- img here -->
-                 <img src="img/sillycat.jpg" alt="Image for Silly Cat">
+            <div class="card">
+                <div class="placeholder">
+                    <!-- img here -->
+                     <img src="img/orangecat.jpg" alt="Image for Orange Cat">
+                </div>
+                <div class="card-text">
+                    <strong>Orange Cat</strong><br>The tactical advisor who is currently waiting for his 15 minutes with the shared brain cell.
+                </div>
             </div>
-            <div class="card-text">
-                <strong>Silly Cat</strong><br>The "Blep" Specialist who identifies enemy targets by staring at them until they feel awkward.
-            </div>
-        </div>
-        <div class="card">
-            <div class="placeholder">
-                <!-- img here -->
-                 <img src="img/orangecat.jpg" alt="Image for Orange Cat">
-            </div>
-            <div class="card-text">
-                <strong>Orange Cat</strong><br>The tactical advisor who is currently waiting for his 15 minutes with the shared brain cell.
-            </div>
-        </div>
-        <div class="card">
-            <div class="placeholder">
-                <!-- img here -->
-                 <img src="img/browncat.jpg" alt="Image for Brown Cat">
-            </div>
-            <div class="card-text">
-                <strong>Brown Cat</strong><br>The loud boss who runs the entire war but hides under the couch if the vacuum turns on.
+            <div class="card">
+                <div class="placeholder">
+                    <!-- img here -->
+                     <img src="img/browncat.jpg" alt="Image for Brown Cat">
+                </div>
+                <div class="card-text">
+                    <strong>Brown Cat</strong><br>Big tough talker with tiny panic mode. Growls at everyone, then vanishes at the first sound of the vacuum monster.
+                </div>
             </div>
         </div>
     </div>
     <div class="testimonial">
-        <div class="testimonial-text">
-            "I never thought a bunch of cats could save the world. But somehow King Cat, Silly Cat, Orange Cat, and even Brown Cat (after we flipped his switch) pulled off the impossible. The catnip flows freely once again."
+        <div class="testimonial-container container">
+            <div class="testimonial-text">
+                "I never thought a bunch of cats could save the world. But somehow King Cat, Silly Cat, Orange Cat, and even Brown Cat (after we flipped his switch) pulled off the impossible. The catnip flows freely once again."
+            </div>
+            <div class="testimonial-author">-General Whiskers, Supreme Commander</div>
         </div>
-        <div class="testimonial-author">-General Whiskers, Supreme Commander</div>
     </div>
     <div class="cta">
-        <div class="cta-container">
+        <div class="cta-container container">
             <div class="cta-text">
                 <div class="cta-title">Call to action! It's time!</div>
                 <div class="cta-body">The resistance needs YOU. Enlist now and help us reclaim the catnip supply before it's too late!</div>
@@ -78,7 +87,9 @@
     </div>
 
     <div class="footer">
-        <div class="footer-text">Copyright &copy; Ahmad S 2026</div>
+        <div class="footer-container container">
+            <div class="footer-text">Copyright &copy; Ahmad S 2026</div>
+        </div>
     </div>
 </body>
 </html>
